@@ -43,3 +43,5 @@ const data3 = {
   "Soda":         { price: 1.75 },
 };
 assertEqual(findKey(data3, x => x.price <= 1), undefined);
+
+module.exports = findKey;

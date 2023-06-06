@@ -34,3 +34,5 @@ assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]); // Expec
 assertArraysEqual(flatten([1, 2, ["three"], 4, [5], 6]), [1, 2, "three", 4, 5, 6]); // Expected output: [1, 2, "three", 4, 5, 6]
 assertArraysEqual(flatten([[1, 2, 3, 4, 5, 6]]), [1, 2, 3, 4, 5, 6]); // Expected output: [1, 2, 3, 4, 5, 6]
 assertArraysEqual(flatten([["breakfast", "lunch", "dinner"], ["dessert"]]), ["breakfast", "lunch", "dinner", "dessert"]); // Expected output: ["breakfast", "lunch", "dinner", "dessert"]
+
+module.exports = flatten;

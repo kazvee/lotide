@@ -42,3 +42,5 @@ assertArraysEqual(results3, [ "duck", "duck", "duck" ]);
 
 const results4 = takeUntil(data3, x => x === "chicken");
 assertArraysEqual(results4, ["duck", "duck", "duck", "goose", "duck", "duck",]);
+
+module.exports = takeUntil;

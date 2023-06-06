@@ -35,3 +35,5 @@ const results3 = map(words, word => word + word);
 assertArraysEqual(results3, ["justjust", "goinggoing", "withwith", "thethe", "flowflow"]);
 // This should fail:
 assertArraysEqual(results1, words);
+
+module.exports = map;

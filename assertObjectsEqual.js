@@ -48,3 +48,5 @@ assertObjectsEqual(eqObjects(sweaterObject  , multiColorShirtObject), false); //
 
 const tShirtObject = { color: "red", size: "medium" };
 assertObjectsEqual(eqObjects(tShirtObject , shirtObject), true); // Expected output: true
+
+module.exports = assertObjectsEqual;
