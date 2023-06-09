@@ -11,7 +11,6 @@ const countLetters = function(sentence) {
       }
     }
   }
-
   return result;
 };
 
