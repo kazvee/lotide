@@ -1,6 +1,6 @@
 {
-  "name": "@karvok/lotide",
-  "version": "1.0.2",
+  "name": "@kazvee/lotide",
+  "version": "1.0.3",
   "description": "A mini clone of the [Lodash](https://lodash.com) library.",
   "main": "index.js",
   "directories": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karvok/lotide.git"
+    "url": "git+https://github.com/kazvee/lotide.git"
   },
-  "author": "karvok",
+  "author": "kazvee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karvok/lotide/issues"
+    "url": "https://github.com/kazvee/lotide/issues"
   },
-  "homepage": "https://github.com/karvok/lotide#readme",
+  "homepage": "https://github.com/kazvee/lotide#readme",
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^9.2.2"
